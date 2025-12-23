@@ -40,7 +40,9 @@ DJIANGO_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
-APPLICATION_APPS = ['pages.apps.PagesConfig']
+APPLICATION_APPS = ['pages.apps.PagesConfig',
+                    'doctors.apps.DoctorsConfig',
+                    'listings.apps.ListingsConfig']
 INSTALLED_APPS = DJIANGO_APPS + APPLICATION_APPS
 # pages is the app's, apps is the app
 MIDDLEWARE = [

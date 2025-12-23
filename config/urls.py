@@ -19,6 +19,8 @@ from django.urls import path,include
 
 urlpatterns = [
     path('', include('pages.urls',namespace='pages')),
+    path('listings/',include('listings.urls',namespace='listings')),
+    #path('docotrs/',include('doctors.urls',namespace='docotors'))
     path('admin/', admin.site.urls),
 ]
 # admin is houtai website management , 'admin' this name is changeble
