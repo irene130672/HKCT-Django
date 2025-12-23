@@ -22,3 +22,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 ]
 # admin is houtai website management , 'admin' this name is changeble
+# '' empty string ,buz sometimes end point is empty string
